@@ -1,0 +1,14 @@
+{
+  "name": "laos-router",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "author": "",
+  "license": "GPL-3.0-only",
+  "description": ""
+}
