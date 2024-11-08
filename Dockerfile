@@ -5,8 +5,9 @@ WORKDIR /app
 
 COPY src/server.js server.js
 COPY src/index.js index.js
+COPY src/package.json package.json
 RUN chown nobody:nobody .
 
 USER nobody:nobody
 
-CMD ["node", "index.js"]
+CMD ["npm", "run", "dev"]
