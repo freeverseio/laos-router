@@ -60,10 +60,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - edit-me.io # TODO decide if plaintext or env var
+        - explorer.proxy.laosnetwork.io
       secretName: router-tls
   rules:
-    - host: edit-me.io # TODO decide if plaintext or env var
+    - host: explorer.proxy.laosnetwork.io
       http:
         paths:
           - path: /
